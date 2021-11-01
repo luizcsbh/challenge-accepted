@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Servidor web desenvolvido com Nodejs para o challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcsbh/challenge-accepted.git"
+  },
+  "keywords": [
+    "backend",
+    "node"
+  ],
+  "author": "Luiz Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizcsbh/challenge-accepted/issues"
+  },
+  "homepage": "https://github.com/luizcsbh/challenge-accepted#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
