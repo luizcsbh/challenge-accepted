@@ -11,6 +11,7 @@ const consign = require('consign');
 const app = express();
 
 app.use(cors());
+
 app.use(express.json());
 
 /* Autoloads routes, models, and controllers to the app object */
